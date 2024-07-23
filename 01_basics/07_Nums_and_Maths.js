@@ -4,17 +4,20 @@ console.log(score1)
 console.log(score);
 
 console.log(score1.toString())
+// console.log(typeof score1.toString())
 console.log(score1.toString().length);
 console.log(score1.toFixed(2));
 console.log(score.toFixed(3));
 console.log(score)
+
 const othernumber=123.8966
 
 console.log(othernumber.toPrecision(3));
+console.log(typeof othernumber.toPrecision(3));
 console.log(othernumber.toPrecision(2));
 console.log(othernumber.toPrecision(4));
 
-const hundred=1000000
+const hundred=10000002
 
 console.log(hundred.toLocaleString());     //american stndard way of representation
 console.log(hundred.toLocaleString('en-IN'));  //indian stndard way of representation
@@ -29,7 +32,7 @@ console.log(Math.abs(-8))
 console.log(Math.max(9,2,33,4))
 console.log(Math.min(9,2,33,4))
 console.log(Math.sqrt(3))
-
+    
 console.log((Math.random()*10)+1)
 
 

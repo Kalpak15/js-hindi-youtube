@@ -4,6 +4,7 @@ console.log(`The name is ${name} and the Total Repos are ${repo}`);
 
 const gameName=new String("kalpa-kk")
 console.log(gameName);
+console.log(typeof gameName)
 
 console.log(gameName[0])-
 console.log(gameName.__proto__)

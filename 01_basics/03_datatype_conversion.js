@@ -9,7 +9,7 @@ let score1=true
 console.log(score1)
 console.log(typeof score1)
 
-let valueInNumber=Number(score1)
+let valueInNumber= Number(score1)
 console.log(valueInNumber)
 console.log(typeof valueInNumber)
 
@@ -19,9 +19,9 @@ console.log(typeof valueInNumber)
 // true=>1; false=>0
 
 
-// let loggedIn=1
+let loggedIn=1
 // let loggedIn=""
-let loggedIn="kalpak"
+// let loggedIn="kalpak"
 
 let booleanlogged=Boolean(loggedIn)
 
